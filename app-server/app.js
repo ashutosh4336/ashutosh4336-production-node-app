@@ -48,7 +48,7 @@ import { initializeSocketIO } from './socket/index.js';
 import { errorHandler } from './middlewares/error.js';
 import { corsOrigin } from './config/constants.js';
 import logger from './lib/logger.js';
-import('./lib/mongo.js');
+import('./lib/mongo.js').then().catch(logger.error);
 import AppRouter from './routes.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -187,7 +187,7 @@ if (process.env.NODE_ENV === 'development') {
 
 initializeSocketIO(io);
 
-const PORT = Number(process.env.PORT) || 8080;
+const PORT = Number(process.env.PORT) || 1337;
 const server = httpServer.listen(
   PORT,
   logger.info(
@@ -209,6 +209,7 @@ process.on('SIGTERM', () => {
   logger.info('SIGTERM RECEIVED. Shutting down gracefully');
   server.close(() => {
     logger.info('Process terminated!');
+    process.exit(1);
   });
 });
 
@@ -216,6 +217,7 @@ process.on('SIGINT', () => {
   logger.info('SIGINT RECEIVED. Shutting down gracefully');
   server.close(() => {
     logger.info('Process terminated!');
+    process.exit(1);
   });
 });
 

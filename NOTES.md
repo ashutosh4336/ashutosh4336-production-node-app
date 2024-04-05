@@ -21,3 +21,18 @@ docker run -d \
        - './alertmanager/data:/alertmanager' # Mount Alertmanager data directory for persistence
      restart: always
 ```
+
+```
+ssh-keygen -t rsa -b 4096 -C "ashu.juga99@gmail.com" -f ~/.ssh/id_rsa_ashutosh4336
+
+Host github.com-ashutosh4336
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_ashutosh4336
+
+# GitHub account 2
+Host github.com-ashutosh43361
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_ashutosh43361
+```
