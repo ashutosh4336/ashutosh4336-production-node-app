@@ -1,0 +1,37 @@
+{
+  "name": "prometheus-grafana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "start:pm2": "pm2 start ecosystem.config.cjs --only prod",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cls-rtracer": "^2.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0",
+    "is-plain-object": "^5.0.0",
+    "mongodb": "^6.5.0",
+    "pm2": "^5.3.1",
+    "prom-client": "^15.1.0",
+    "request-ip": "^3.3.0",
+    "socket.io": "^4.7.5",
+    "swagger-ui-express": "^5.0.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.12.0",
+    "winston-daily-rotate-file": "^5.0.0",
+    "yaml": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

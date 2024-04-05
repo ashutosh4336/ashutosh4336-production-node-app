@@ -1,0 +1,131 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  mongodb:
+    image: 'mongo'
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD}
+    # - MONGO_INITDB_ROOT_USERNAME=max
+    # env_file:
+    #   - ./env/mongo.env
+    ports:
+      - '27017:27017'
+    networks:
+      - prmetheus-network
+
+  mongodb_exporter:
+    image: percona/mongodb_exporter:0.40.0
+    container_name: mongodb_exporter
+    command:
+      - '--mongodb.uri=mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@host.docker.internal:27017' # Adjust MongoDB URI as needed
+    ports:
+      - '9216:9216' # Expose MongoDB Exporter port
+    depends_on:
+      - mongodb
+
+  app-server:
+    # build: ./server
+    build:
+      context: ./app-server
+      dockerfile: Dockerfile
+    #   args:
+    #     some-arg: 1
+    container_name: app-server
+    ports:
+      - '8080:80'
+    volumes:
+      - ./app-server/logs:/app/dct-app/logs
+      - ./app-server:/app/dct-app
+      - /app/dct-app/node_modules
+    env_file:
+      - ./app-server/.env
+    depends_on:
+      - mongodb
+    networks:
+      - prmetheus-network
+
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    ports:
+      - target: 9090
+        published: 9090
+    volumes:
+      - type: bind
+        source: ./prometheus.yml
+        target: /etc/prometheus/prometheus.yml
+    networks:
+      - prmetheus-network
+
+  grafana:
+    image: grafana/grafana-enterprise
+    container_name: grafana
+    restart: unless-stopped
+    environment:
+      - GF_SERVER_ROOT_URL=http://my.grafana.server/
+      - GF_INSTALL_PLUGINS=grafana-clock-panel
+    ports:
+      - '3000:3000'
+    # if you are running as root then set it to 0
+    # else find the right id with the id -u command
+    user: '${UID}'
+
+    # adding the mount volume point which we create earlier
+    volumes:
+      - '$PWD/grafana-data:/var/lib/grafana'
+    networks:
+      - prmetheus-network
+
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:8.13.1
+    container_name: filebeat
+    volumes:
+      - ./app-server/logs:/app/dct-app/logs
+      - ./env/filebeat.yml:/usr/share/filebeat/filebeat.yml
+      # Mount your Filebeat configuration file
+      # Add any additional volumes as necessary
+    command: filebeat -e -c /usr/share/filebeat/filebeat.yml
+    # depends_on:
+    #   - elasticsearch
+
+  # elasticsearch:
+  #   image: docker.elastic.co/elasticsearch/elasticsearch:8.13.1
+  #   container_name: elasticsearch
+  #   environment:
+  #     - node.name=elasticsearch
+  #     - discovery.type=single-node
+  #     - 'ES_JAVA_OPTS=-Xms512m -Xmx512m'
+  #     - 'xpack.security.enabled=true'
+  #     - 'ELASTIC_PASSWORD=Ashutosh@4336'
+  #   ports:
+  #     - '9200:9200'
+  #     - '9300:9300'
+  #   volumes:
+  #     - elasticsearch-data:/usr/share/elasticsearch/data
+
+  # kibana:
+  #   image: docker.elastic.co/kibana/kibana:8.13.1
+  #   container_name: kibana
+  #   environment:
+  #     - ELASTICSEARCH_HOSTS=http://65.2.3.11:9200
+  #   ports:
+  #     - '5601:5601'
+  #   # depends_on:
+  #   #   - elasticsearch
+
+volumes:
+  mongo-data:
+  elasticsearch-data:
+
+networks:
+  prmetheus-network:
+    driver: bridge
+
+# Declare your variables at the end of the file
+x-environment:
+  MONGO_USERNAME: prometheus
+  MONGO_PASSWORD: prometheus
