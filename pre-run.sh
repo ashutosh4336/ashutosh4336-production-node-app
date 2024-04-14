@@ -1,0 +1,1 @@
+export UID=$UID; export MONGO_PASSWORD=prometheus; export MONGO_USERNAME=prometheus;

@@ -1,0 +1,42 @@
+input {
+	#file {
+	#	path => "/home/ashutosh/t-apps/production-node-app/app-server/logs/**/*.log"
+	#	start_position => "beginning"
+	#	sincedb_path  => "/dev/null"
+	#}
+    stdin {}
+    beats {
+         port => 5044
+         ssl => false
+    }
+}
+
+filter {
+    grok {
+        match => {
+            "message" => [
+                "%{TIMESTAMP_ISO8601:timestamp} \[%{DATA:service}\] %{LOGLEVEL:loglevel} \[request-id:%{DATA:request_id}\]: %{GREEDYDATA:message} | %{GREEDYDATA:json_data}",
+                "%{TIMESTAMP_ISO8601:timestamp} \[%{DATA:service}\] %{LOGLEVEL:loglevel} \[request-id:%{DATA:request_id}\]: method: %{WORD:method} \| url: %{DATA:url} \| status_code: %{NUMBER:status_code} \| execution time \(sec\): %{NUMBER:execution_time}",
+                "%{TIMESTAMP_ISO8601:timestamp} \[%{DATA:service}\] %{LOGLEVEL:level} \[request-id:%{DATA:request-id}\]: %{GREEDYDATA:message}: %{WORD:protocol}: %{WORD:method}: %{HOSTNAME:hostname}: %{URIPATHPARAM:originalUrl}: %{GREEDYDATA:header}: %{GREEDYDATA:body}",
+                "%{TIMESTAMP_ISO8601:timestamp} \[%{DATA:service}\] %{LOGLEVEL:level} \[request-id:%{DATA:request-id}\]: %{GREEDYDATA:message}"
+            ]
+        }
+        overwrite => [ "message" ]
+    }
+
+    date {
+        match => ["timestamp", "ISO8601"]
+        target => "@timestamp"
+    }
+	mutate {
+		remove_field => ["timestamp", "path", "host", "@version", "tags"]
+	}
+}
+
+output {
+	elasticsearch {
+		hosts => ["localhost:9200"]
+		index => "dct-logs-from-filebeat"
+	}
+	stdout { codec => rubydebug }
+}

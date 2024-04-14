@@ -36,3 +36,12 @@ Host github.com-ashutosh43361
     User git
     IdentityFile ~/.ssh/id_rsa_ashutosh43361
 ```
+
+```
+pm2 start app.js --name "prometheus-test" --max-memory-restart 200M --restart-delay 1000 --env .env
+```
+
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f ~/.ssh/id_rsa_github1
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f ~/.ssh/id_rsa_github2
+```

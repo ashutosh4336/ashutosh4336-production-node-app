@@ -1,0 +1,145 @@
+2024-03-20T16:33:58.431Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:34:20.319Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:34:26.011Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:34:28.619Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:34:37.537Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:34:39.802Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:34:40.029Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:34:57.899Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:35:04.460Z [prometheus-test] INFO [request-id:ce1035b0-e6d7-11ee-96e7-4bb02289086f]: Request ID in fast-route: | ce1035b0-e6d7-11ee-96e7-4bb02289086f
+2024-03-20T16:35:16.617Z [prometheus-test] INFO [request-id:d54f3880-e6d7-11ee-96e7-4bb02289086f]: Request ID in fast-route: | d54f3880-e6d7-11ee-96e7-4bb02289086f
+2024-03-20T16:35:35.890Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:35:38.217Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:36:00.097Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:36:03.714Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:36:21.443Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:36:25.490Z [prometheus-test] INFO [request-id:fe5c4100-e6d7-11ee-996a-e1c24cc2686c]: Request ID in fast-route:
+2024-03-20T16:36:30.327Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:36:33.392Z [prometheus-test] INFO [request-id:031227f0-e6d8-11ee-b669-bdd7a8345ba3]: Request ID in fast-route:
+2024-03-20T16:36:33.392Z [prometheus-test] INFO [request-id:031227f0-e6d8-11ee-b669-bdd7a8345ba3]: Request ID in logMe:
+2024-03-20T16:36:41.661Z [prometheus-test] INFO [request-id:08000ed0-e6d8-11ee-b669-bdd7a8345ba3]: Request ID in fast-route:
+2024-03-20T16:36:41.661Z [prometheus-test] INFO [request-id:08000ed0-e6d8-11ee-b669-bdd7a8345ba3]: Request ID in logMe:
+2024-03-20T16:36:42.306Z [prometheus-test] INFO [request-id:08625310-e6d8-11ee-b669-bdd7a8345ba3]: Request ID in fast-route:
+2024-03-20T16:36:42.307Z [prometheus-test] INFO [request-id:08625310-e6d8-11ee-b669-bdd7a8345ba3]: Request ID in logMe:
+2024-03-20T16:37:07.266Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:37:36.048Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:37:40.414Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:37:45.012Z [prometheus-test] INFO [request-id:2dc2a740-e6d8-11ee-b718-7f71ca3bdbca]: Request ID in fast-route:
+2024-03-20T16:37:45.013Z [prometheus-test] INFO [request-id:2dc2a740-e6d8-11ee-b718-7f71ca3bdbca]: Request ID in logMe:
+2024-03-20T16:37:46.023Z [prometheus-test] INFO [request-id:2e5cc460-e6d8-11ee-b718-7f71ca3bdbca]: Request ID in fast-route:
+2024-03-20T16:37:46.023Z [prometheus-test] INFO [request-id:2e5cc460-e6d8-11ee-b718-7f71ca3bdbca]: Request ID in logMe:
+2024-03-20T16:37:46.619Z [prometheus-test] INFO [request-id:2eb7b5a0-e6d8-11ee-b718-7f71ca3bdbca]: Request ID in fast-route:
+2024-03-20T16:37:46.620Z [prometheus-test] INFO [request-id:2eb7b5a0-e6d8-11ee-b718-7f71ca3bdbca]: Request ID in logMe:
+2024-03-20T16:38:24.555Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:39:27.402Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:39:44.736Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:39:54.050Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:40:43.296Z [prometheus-test] INFO [request-id:98067af0-e6d8-11ee-99a9-11d5ecb62703]: Request ID in fast-route:
+2024-03-20T16:40:43.296Z [prometheus-test] INFO [request-id:98067af0-e6d8-11ee-99a9-11d5ecb62703]: Request ID in logMe:
+2024-03-20T16:40:44.078Z [prometheus-test] INFO [request-id:987dcdd0-e6d8-11ee-99a9-11d5ecb62703]: Request ID in fast-route:
+2024-03-20T16:40:44.078Z [prometheus-test] INFO [request-id:987dcdd0-e6d8-11ee-99a9-11d5ecb62703]: Request ID in logMe:
+2024-03-20T16:40:44.771Z [prometheus-test] INFO [request-id:98e78c20-e6d8-11ee-99a9-11d5ecb62703]: Request ID in fast-route:
+2024-03-20T16:40:44.772Z [prometheus-test] INFO [request-id:98e78c20-e6d8-11ee-99a9-11d5ecb62703]: Request ID in logMe:
+2024-03-20T16:40:57.306Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:45:51.406Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:45:56.821Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:46:04.737Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:46:23.569Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:46:36.224Z [prometheus-test] INFO [request-id:6a6304f0-e6d9-11ee-be14-433870227ce2]: starting point: http: GET: 127.0.0.1: /metrics:  | {"user-agent":"PostmanRuntime/7.37.0","accept":"*/*","postman-token":"a080fdc2-9b21-4ede-a90b-17b05548d9d4","host":"127.0.0.1:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} | {}
+2024-03-20T16:46:36.230Z [prometheus-test] INFO [request-id:6a6304f0-e6d9-11ee-be14-433870227ce2]: method: GET | url: /metrics | status_code: 404 | execution time (sec): 0.005
+2024-03-20T16:46:46.537Z [prometheus-test] INFO [request-id:7088cf90-e6d9-11ee-be14-433870227ce2]: starting point: http: GET: 127.0.0.1: /fast-route:  | {"user-agent":"PostmanRuntime/7.37.0","accept":"*/*","postman-token":"70912582-dc0b-442f-8130-a97503eb46e2","host":"127.0.0.1:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} | {}
+2024-03-20T16:46:46.540Z [prometheus-test] INFO [request-id:7088cf90-e6d9-11ee-be14-433870227ce2]: Request ID in fast-route:
+2024-03-20T16:46:46.541Z [prometheus-test] INFO [request-id:7088cf90-e6d9-11ee-be14-433870227ce2]: Request ID in logMe:
+2024-03-20T16:46:46.546Z [prometheus-test] INFO [request-id:7088cf90-e6d9-11ee-be14-433870227ce2]: method: GET | url: /fast-route | status_code: 200 | execution time (sec): 0.007
+2024-03-20T16:49:37.434Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:50:21.849Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:50:28.349Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:50:44.750Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T16:50:49.239Z [prometheus-test] INFO [request-id:0000]: Server is running on port 3000
+2024-03-20T17:32:44.589Z [prometheus-test] INFO [request-id:0000]: 🚀 Started on Port undefined in undefined mode
+2024-03-20T17:32:57.207Z [prometheus-test] INFO [request-id:0000]: 🚀 Started on Port 8080 in undefined mode
+2024-03-20T17:33:16.736Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in undefined mode
+2024-03-20T17:33:44.952Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:33:51.378Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:34:10.289Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:34:56.845Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:36:27.029Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:37:46.910Z [prometheus-test] INFO [request-id:90a85dc0-e6e0-11ee-80da-d728b2432875]: starting point: http: GET: localhost: /docs:  | {"host":"localhost:8080","sec-fetch-site":"none","connection":"keep-alive","upgrade-insecure-requests":"1","sec-fetch-mode":"navigate","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15","accept-language":"en-US,en;q=0.9","sec-fetch-dest":"document","accept-encoding":"gzip, deflate"} | {}
+2024-03-20T17:37:46.921Z [prometheus-test] INFO [request-id:90a85dc0-e6e0-11ee-80da-d728b2432875]: method: GET | url: /docs | status_code: 404 | execution time (sec): 0.01
+2024-03-20T17:38:10.396Z [prometheus-test] INFO [request-id:9ea859c0-e6e0-11ee-80da-d728b2432875]: starting point: http: GET: localhost: /api-docs:  | {"host":"localhost:8080","sec-fetch-site":"none","connection":"keep-alive","upgrade-insecure-requests":"1","sec-fetch-mode":"navigate","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15","accept-language":"en-US,en;q=0.9","sec-fetch-dest":"document","accept-encoding":"gzip, deflate"} | {}
+2024-03-20T17:38:10.399Z [prometheus-test] INFO [request-id:9ea859c0-e6e0-11ee-80da-d728b2432875]: method: GET | url: / | status_code: 301 | execution time (sec): 0.002
+2024-03-20T17:38:10.409Z [prometheus-test] INFO [request-id:9eaa5590-e6e0-11ee-80da-d728b2432875]: starting point: http: GET: localhost: /api-docs/:  | {"host":"localhost:8080","sec-fetch-site":"none","connection":"keep-alive","upgrade-insecure-requests":"1","sec-fetch-mode":"navigate","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15","accept-language":"en-US,en;q=0.9","sec-fetch-dest":"document","accept-encoding":"gzip, deflate"} | {}
+2024-03-20T17:38:10.413Z [prometheus-test] INFO [request-id:9eaa5590-e6e0-11ee-80da-d728b2432875]: method: GET | url: / | status_code: 200 | execution time (sec): 0.003
+2024-03-20T17:38:20.932Z [prometheus-test] INFO [request-id:a4f00440-e6e0-11ee-80da-d728b2432875]: starting point: http: GET: localhost: /api-docs:  | {"host":"localhost:8080","connection":"keep-alive","sec-ch-ua":"\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Brave\";v=\"122\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","dnt":"1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8","sec-gpc":"1","accept-language":"en-US,en","sec-fetch-site":"none","sec-fetch-mode":"navigate","sec-fetch-user":"?1","sec-fetch-dest":"document","accept-encoding":"gzip, deflate, br"} | {}
+2024-03-20T17:38:20.935Z [prometheus-test] INFO [request-id:a4f00440-e6e0-11ee-80da-d728b2432875]: method: GET | url: / | status_code: 301 | execution time (sec): 0.002
+2024-03-20T17:38:20.938Z [prometheus-test] INFO [request-id:a4f0c790-e6e0-11ee-80da-d728b2432875]: starting point: http: GET: localhost: /api-docs/:  | {"host":"localhost:8080","connection":"keep-alive","dnt":"1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8","sec-gpc":"1","sec-fetch-site":"none","sec-fetch-mode":"navigate","sec-fetch-user":"?1","sec-fetch-dest":"document","sec-ch-ua":"\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Brave\";v=\"122\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","accept-language":"en-US,en","accept-encoding":"gzip, deflate, br"} | {}
+2024-03-20T17:38:20.944Z [prometheus-test] INFO [request-id:a4f0c790-e6e0-11ee-80da-d728b2432875]: method: GET | url: / | status_code: 200 | execution time (sec): 0.004
+2024-03-20T17:38:20.988Z [prometheus-test] INFO [request-id:a4f88fc0-e6e0-11ee-80da-d728b2432875]: starting point: http: GET: localhost: /api-docs/swagger-ui.css:  | {"host":"localhost:8080","connection":"keep-alive","sec-ch-ua":"\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Brave\";v=\"122\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"macOS\"","accept":"text/css,*/*;q=0.1","sec-gpc":"1","accept-language":"en-US,en","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"style","accept-encoding":"gzip, deflate, br"} | {}
+2024-03-20T17:38:20.990Z [prometheus-test] INFO [request-id:a4f8dde0-e6e0-11ee-80da-d728b2432875]: starting point: http: GET: localhost: /api-docs/swagger-ui-bundle.js:  | {"host":"localhost:8080","connection":"keep-alive","sec-ch-ua":"\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Brave\";v=\"122\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"macOS\"","accept":"*/*","sec-gpc":"1","accept-language":"en-US,en","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"script","accept-encoding":"gzip, deflate, br"} | {}
+2024-03-20T17:38:20.995Z [prometheus-test] INFO [request-id:a4f9a130-e6e0-11ee-80da-d728b2432875]: starting point: http: GET: localhost: /api-docs/swagger-ui-standalone-preset.js:  | {"host":"localhost:8080","connection":"keep-alive","sec-ch-ua":"\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Brave\";v=\"122\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"macOS\"","accept":"*/*","sec-gpc":"1","accept-language":"en-US,en","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"script","accept-encoding":"gzip, deflate, br"} | {}
+2024-03-20T17:38:20.998Z [prometheus-test] INFO [request-id:a4fa1660-e6e0-11ee-80da-d728b2432875]: starting point: http: GET: localhost: /api-docs/swagger-ui-init.js:  | {"host":"localhost:8080","connection":"keep-alive","sec-ch-ua":"\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Brave\";v=\"122\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"macOS\"","accept":"*/*","sec-gpc":"1","accept-language":"en-US,en","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"script","accept-encoding":"gzip, deflate, br"} | {}
+2024-03-20T17:38:21.001Z [prometheus-test] INFO [request-id:a4fa1660-e6e0-11ee-80da-d728b2432875]: method: GET | url: /swagger-ui-init.js | status_code: 200 | execution time (sec): 0.002
+2024-03-20T17:38:21.005Z [prometheus-test] INFO [request-id:a4f88fc0-e6e0-11ee-80da-d728b2432875]: method: GET | url: /swagger-ui.css | status_code: 200 | execution time (sec): 0.016
+2024-03-20T17:38:21.008Z [prometheus-test] INFO [request-id:a4f9a130-e6e0-11ee-80da-d728b2432875]: method: GET | url: /swagger-ui-standalone-preset.js | status_code: 200 | execution time (sec): 0.012
+2024-03-20T17:38:21.012Z [prometheus-test] INFO [request-id:a4f8dde0-e6e0-11ee-80da-d728b2432875]: method: GET | url: /swagger-ui-bundle.js | status_code: 200 | execution time (sec): 0.02
+2024-03-20T17:38:21.174Z [prometheus-test] INFO [request-id:a514f160-e6e0-11ee-80da-d728b2432875]: starting point: http: GET: localhost: /api-docs/favicon-32x32.png:  | {"host":"localhost:8080","connection":"keep-alive","sec-ch-ua":"\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Brave\";v=\"122\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"macOS\"","accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8","sec-gpc":"1","accept-language":"en-US,en","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"image","accept-encoding":"gzip, deflate, br"} | {}
+2024-03-20T17:38:21.177Z [prometheus-test] INFO [request-id:a514f160-e6e0-11ee-80da-d728b2432875]: method: GET | url: /favicon-32x32.png | status_code: 200 | execution time (sec): 0.002
+2024-03-20T17:39:28.450Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:39:51.237Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:40:23.840Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:43:30.177Z [prometheus-test] INFO [request-id:0000]: SIGINT RECEIVED. Shutting down gracefully
+2024-03-20T17:43:30.179Z [prometheus-test] INFO [request-id:0000]: Process terminated!
+2024-03-20T17:43:32.445Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:43:46.553Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:43:52.461Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:43:58.500Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:46:56.799Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:47:02.092Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:47:15.346Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:47:40.713Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:47:49.691Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:47:55.824Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:48:34.262Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:48:53.346Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:49:07.570Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:49:38.749Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:49:43.235Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:51:22.998Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:51:26.438Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:51:57.314Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:52:19.973Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:52:24.982Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:52:33.529Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:52:45.198Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:53:05.131Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:53:06.149Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:53:06.977Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:53:45.695Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T17:57:39.929Z [prometheus-test] INFO [request-id:57c0c580-e6e3-11ee-a0fc-d3e2b299d38c]: starting point: http: GET: localhost: /api-docs/swagger-ui.css:  | {"host":"localhost:8080","connection":"keep-alive","sec-ch-ua":"\"Brave\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"macOS\"","accept":"text/css,*/*;q=0.1","sec-gpc":"1","accept-language":"en-US,en","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"style","accept-encoding":"gzip, deflate, br, zstd","if-none-match":"W/\"251fb-18e5cc8c16c\"","if-modified-since":"Wed, 20 Mar 2024 16:54:04 GMT"} | {}
+2024-03-20T17:57:39.939Z [prometheus-test] INFO [request-id:57c24c20-e6e3-11ee-a0fc-d3e2b299d38c]: starting point: http: GET: localhost: /api-docs/swagger-ui-bundle.js:  | {"host":"localhost:8080","connection":"keep-alive","sec-ch-ua":"\"Brave\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"macOS\"","accept":"*/*","sec-gpc":"1","accept-language":"en-US,en","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"script","accept-encoding":"gzip, deflate, br, zstd","if-none-match":"W/\"1598a5-18e5cc8c16c\"","if-modified-since":"Wed, 20 Mar 2024 16:54:04 GMT"} | {}
+2024-03-20T17:57:39.942Z [prometheus-test] INFO [request-id:57c2c150-e6e3-11ee-a0fc-d3e2b299d38c]: starting point: http: GET: localhost: /api-docs/swagger-ui-standalone-preset.js:  | {"host":"localhost:8080","connection":"keep-alive","sec-ch-ua":"\"Brave\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"macOS\"","accept":"*/*","sec-gpc":"1","accept-language":"en-US,en","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"script","accept-encoding":"gzip, deflate, br, zstd","if-none-match":"W/\"38579-18e5cc8c16c\"","if-modified-since":"Wed, 20 Mar 2024 16:54:04 GMT"} | {}
+2024-03-20T17:57:39.946Z [prometheus-test] INFO [request-id:57c0c580-e6e3-11ee-a0fc-d3e2b299d38c]: method: GET | url: /swagger-ui.css | status_code: 304 | execution time (sec): 0.015
+2024-03-20T17:57:39.948Z [prometheus-test] INFO [request-id:57c24c20-e6e3-11ee-a0fc-d3e2b299d38c]: method: GET | url: /swagger-ui-bundle.js | status_code: 304 | execution time (sec): 0.009
+2024-03-20T17:57:39.949Z [prometheus-test] INFO [request-id:57c3f9d0-e6e3-11ee-a0fc-d3e2b299d38c]: starting point: http: GET: localhost: /api-docs/swagger-ui-init.js:  | {"host":"localhost:8080","connection":"keep-alive","sec-ch-ua":"\"Brave\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"","dnt":"1","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"macOS\"","accept":"*/*","sec-gpc":"1","accept-language":"en-US,en","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"script","accept-encoding":"gzip, deflate, br, zstd","if-none-match":"W/\"7f9-iR6j808FzBoZE6ovq6wQp/nFhuA\""} | {}
+2024-03-20T17:57:39.951Z [prometheus-test] INFO [request-id:57c3f9d0-e6e3-11ee-a0fc-d3e2b299d38c]: method: GET | url: /swagger-ui-init.js | status_code: 304 | execution time (sec): 0.001
+2024-03-20T17:57:39.953Z [prometheus-test] INFO [request-id:57c2c150-e6e3-11ee-a0fc-d3e2b299d38c]: method: GET | url: /swagger-ui-standalone-preset.js | status_code: 304 | execution time (sec): 0.011
+2024-03-20T18:13:03.410Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:14:37.020Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:15:27.671Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:16:01.633Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:16:05.523Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:16:11.508Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:16:17.602Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:16:49.490Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:17:49.509Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:17:50.505Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:17:58.868Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:18:02.358Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:18:12.339Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:18:23.510Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:18:48.253Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:18:52.338Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:19:15.706Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:19:23.178Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:20:01.362Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode
+2024-03-20T18:23:31.361Z [prometheus-test] INFO [request-id:0000]: 🚀 Server started on Port 8080 in development mode

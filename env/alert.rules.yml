@@ -1,0 +1,20 @@
+groups:
+  - name: prometheus-app-rules
+    rules:
+      - alert: HighCPUUsage
+        expr: node_cpu_seconds_total / node_cpu_seconds_total{mode="idle"} * 100 < 3
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: 'High CPU Usage detected'
+          description: 'CPU usage is consistently high for more than 1 minutes'
+
+      - alert: HighMemoryUsage
+        expr: (node_memory_MemTotal - node_memory_MemFree) / node_memory_MemTotal * 100 > 10
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: 'High Memory Usage detected'
+          description: 'Memory usage is consistently high for more than 1 minutes'

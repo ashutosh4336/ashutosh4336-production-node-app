@@ -2,6 +2,5 @@ node_modules
 temp
 .env
 .env.prod
-logs*
+app-server/logs*
 grafana-data
-env
